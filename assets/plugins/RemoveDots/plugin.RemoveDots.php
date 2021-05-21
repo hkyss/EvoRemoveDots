@@ -1,20 +1,4 @@
 <?php
-/**
- * Remove dots
- *
- * plugin
- *
- * @category        plugin
- * @version         0.1
- * @author          hkyss
- * @documentation   empty
- * @lastupdate      05.11.2020
- * @internal    	@modx_category Resources
- * @internal    	@events OnDocFormSave
- * @internal    	@properties &include_tpl=ID шаблонов для обработки;string;9 &fields=Названия полей для обработки;string;pagetitle,menutitle,alias
- *
- */
-
 if(!defined('MODX_BASE_PATH')) die('What are you doing? Get out of here!');
 
 global $template;
